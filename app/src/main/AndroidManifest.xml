@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sp.p2002640_cherish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cherish"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.P2002640_Cherish">
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait"
+            android:label="Contact"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait"
+            android:label="About"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingGuide"
+            android:exported="false"
+            android:label="Shopping Guide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorageGuide"
+            android:exported="false"
+            android:label="Storage Guide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShoppingInfoDisplay"
+            android:exported="false"
+            android:label="Shopping List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShoppingDataInput"
+            android:exported="false"
+            android:label="Shopping Input"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FunQuiz"
+            android:exported="false"
+            android:label="Fun Quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorageInfoDisplay"
+            android:exported="false"
+            android:label="Storage List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorageDataInput"
+            android:exported="false"
+            android:label="Storage Input"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Twitter"
+            android:exported="false"
+            android:label="Twitter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Instagram"
+            android:exported="false"
+            android:label="Instagram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Facebook"
+            android:exported="false"
+            android:label="Facebook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News4"
+            android:exported="false"
+            android:label="Interesting News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News3"
+            android:exported="false"
+            android:label="Interesting News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News2"
+            android:exported="false"
+            android:label="Interesting News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News1"
+            android:exported="false"
+            android:label="Interesting News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InterestingNews"
+            android:exported="false"
+            android:label="Interesting News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutFoodWaste"
+            android:exported="false"
+            android:label="About Food Waste"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WillingHearts"
+            android:exported="false"
+            android:label="Willing Hearts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocietyForTheAgedSick"
+            android:exported="false"
+            android:label="Society for the Aged Sick"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RonaldMcDonaldHouseCharities"
+            android:exported="false"
+            android:label="Ronald McDonald House Charities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FreeFoodForAll"
+            android:exported="false"
+            android:label="Free Food For All"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FoodFromTheHeart"
+            android:label="Food from the Heart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FoodBankSingapore"
+            android:label="The Food Bank Singapore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FoodDrives"
+            android:exported="false"
+            android:label="Food Drives"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.P2002640_Cherish.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

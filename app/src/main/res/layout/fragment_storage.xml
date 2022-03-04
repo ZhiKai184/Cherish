@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/food_background_type4"
+    tools:context=".StorageFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="406dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="@font/cabin_condensed_medium"
+        android:text="Check out your food storage!"
+        android:textAlignment="center"
+        android:textColor="#00994D"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/gif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="348dp"
+        android:rotation="180"
+        android:scaleType="centerCrop"
+        android:src="@drawable/finger" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/food_storage_gif" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/bg_edit.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_action_alert.xml" value="0.16197916666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.121875" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.15555555555555556" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_community.xml" value="0.15555555555555556" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_heart.xml" value="0.121875" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_help.xml" value="0.17604166666666668" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17037037037037037" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_learn.xml" value="0.121875" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_lens.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_round_edit_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/ic_round_image_24.xml" value="0.121875" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/drawable/round_arrow_forward_24.xml" value="0.18518518518518517" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_about1.xml" value="0.12545289855072464" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_about2.xml" value="0.12545289855072464" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_about_food_waste.xml" value="0.14492753623188406" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_charity_fragment.xml" value="0.13994565217391305" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_contact.xml" value="0.3333333333333333" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_contact2.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_facebook.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_food_bank_singapore.xml" value="0.15572916666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_food_drives.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_food_from_the_heart.xml" value="0.13229166666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_food_storage_data_input.xml" value="0.1" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_forgot_password.xml" value="0.14666666666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_free_food_for_all.xml" value="0.1234375" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_fun_quiz.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_home.xml" value="0.12" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_image_to_text.xml" value="0.14666666666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_instagram.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_interesting_news.xml" value="0.2638888888888889" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_news1.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_news2.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_news3.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_news4.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_ronald_mc_donald_house_charities.xml" value="0.1234375" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_shopping_data_input.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_shopping_fragment.xml" value="0.13994565217391305" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_shopping_guide.xml" value="0.1" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_shopping_info_display.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_shopping_list.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_sign_up.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_society_for_the_aged_sick.xml" value="0.1539855072463768" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_splash_screen.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_storage_data_input.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_storage_edit.xml" value="0.13179347826086957" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_storage_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_storage_guide.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_storage_info_display.xml" value="0.14666666666666667" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_twitter.xml" value="0.10507246376811594" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/activity_willing_hearts.xml" value="0.1539855072463768" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/fragment__storage.xml" value="0.1" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/fragment_charity.xml" value="0.13994565217391305" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/fragment_learn.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/fragment_shopping.xml" value="0.13994565217391305" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/fragment_storage.xml" value="0.13994565217391305" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/shopping_row.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/storage_row.xml" value="0.22" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/layout/toolbar.xml" value="0.12952898550724637" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/bottom_menu.xml" value="0.16666666666666666" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/menu_guide.xml" value="0.15989583333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/menu_image.xml" value="0.15989583333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/menu_info.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/menu_lens.xml" value="0.159375" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/menu/menu_list.xml" value="0.17552083333333332" />
+        <entry key="..\:/MAD/AndroidStudioProjects/P2002640_Cherish/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

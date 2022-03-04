@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6CC"
+    tools:context=".About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-37dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="97dp"
+                android:layout_height="106dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/food_logo" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="425dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/cabin_condensed_medium"
+                android:gravity="center"
+                android:text="What is Cherish?"
+                android:textColor="#00994D"
+                android:textSize="40sp"
+                app:layout_constraintHorizontal_bias="0.174"
+                app:layout_constraintStart_toEndOf="@+id/food_logo" />
+
+            <TextView
+                android:id="@+id/purpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/cabin_condensed_regular"
+                android:text="Purpose:"
+                android:textColor="#6666FF"
+                android:textSize="28sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foodwaste"
+                    android:layout_width="138dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/foodwaste" />
+
+                <TextView
+                    android:id="@+id/purpose_description"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/foodwaste"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Aims to encourage Singaporeans to save food."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/main_feature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/cabin_condensed_regular"
+                android:text="Main Features:"
+                android:textColor="#6666FF"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/number1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/image_number1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/food_storage_static"
+                    android:layout_width="138dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/food_storage_static" />
+
+                <TextView
+                    android:id="@+id/feature_heading1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="91dp"
+                    android:layout_toRightOf="@+id/food_storage_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Storage:"
+                    android:textColor="#00994D"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/feature_description1"
+                    android:layout_width="220dp"
+                    android:layout_height="112dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@+id/food_storage_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Allows user to keep track of food expiry date at home."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/number2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/image_number2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/food_shopping_static"
+                    android:layout_width="138dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    android:scaleX="-1"
+                    app:srcCompat="@drawable/food_shopping_static" />
+
+                <TextView
+                    android:id="@+id/feature_heading2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="91dp"
+                    android:layout_toRightOf="@+id/food_shopping_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Shopping:"
+                    android:textColor="#00994D"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/feature_description2"
+                    android:layout_width="211dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@+id/food_shopping_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Allows user to create a shopping list to avoid buying excess food."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/number3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/image_number3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/food_charity_static"
+                    android:layout_width="138dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/food_charity_static" />
+
+                <TextView
+                    android:id="@+id/feature_heading3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="91dp"
+                    android:layout_toRightOf="@+id/food_charity_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Charity:"
+                    android:textColor="#00994D"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/feature_description3"
+                    android:layout_width="215dp"
+                    android:layout_height="138dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/food_charity_static"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Allows user to learn more about the different food drives and support them."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/side_feature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/cabin_condensed_regular"
+                android:text="Additional Features:"
+                android:textColor="#6666FF"
+                android:textSize="28sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/food_learn"
+                    android:layout_width="138dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleX="-1"
+                    app:srcCompat="@drawable/food_learn" />
+
+                <TextView
+                    android:id="@+id/feature_heading4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="91dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/food_learn"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Learn:"
+                    android:textColor="#00994D"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/feature_description4"
+                    android:layout_width="227dp"
+                    android:layout_height="265dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_toRightOf="@+id/food_learn"
+                    android:fontFamily="@font/cabin_condensed_regular"
+                    android:text="Allows user to learn about food waste through fun quizzes,
+                    credible news articles, the towardszerowaste website and social media pages."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/thankyou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_condensed_medium"
+                android:gravity="center"
+                android:text="Thank you for using the app!"
+                android:textColor="#00994D"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

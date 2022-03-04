@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/storagefragment"
+        android:icon="@drawable/ic_round_inventory"
+        android:title="Storage" />
+    <item
+        android:id="@+id/shoppingfragment"
+        android:icon="@drawable/ic_add_shopping_cart"
+        android:title="Shopping" />
+    <item
+        android:id="@+id/charityfragment"
+        android:icon="@drawable/ic_heart"
+        android:title="Charity" />
+    <item
+        android:id="@+id/learnfragment"
+        android:icon="@drawable/ic_learn"
+        android:title="Learn" />
+</menu>

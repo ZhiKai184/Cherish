@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/storagefragment">
+
+    <fragment
+        android:id="@+id/storagefragment"
+        android:name="com.sp.p2002640_cherish.StorageFragment"
+        android:label="storage_fragment"
+        tools:layout="@layout/fragment_storage" />
+
+    <fragment
+        android:id="@+id/shoppingfragment"
+        android:name="com.sp.p2002640_cherish.ShoppingFragment"
+        android:label="shopping_fragment"
+        tools:layout="@layout/fragment_shopping" />
+
+    <fragment
+        android:id="@+id/charityfragment"
+        android:name="com.sp.p2002640_cherish.CharityFragment"
+        android:label="charity_fragment"
+        tools:layout="@layout/fragment_charity" />
+
+    <fragment
+        android:id="@+id/learnfragment"
+        android:name="com.sp.p2002640_cherish.LearnFragment"
+        android:label="learn_fragment"
+        tools:layout="@layout/fragment_learn" />
+
+</navigation>

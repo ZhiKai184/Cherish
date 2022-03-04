@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D2E4CA"
+    tools:context=".ShoppingDataInput">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image_view_shopping"
+                    android:layout_width="187dp"
+                    android:layout_height="179dp"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginBottom="9dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_round_image_24" />
+            </TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="25dp"
+                app:cardBackgroundColor="#E6EBEF"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#00994D"
+                        android:fontFamily="@font/cabin_condensed_medium"
+                        android:text="Name of food:"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/food_name_shopping"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:hint="Name of food"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        tools:ignore="TouchTargetSizeCheck"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textView_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Quantity:"
+                        android:textColor="#00994D"
+                        android:fontFamily="@font/cabin_condensed_medium"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/food_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:hint="Quantity"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        tools:ignore="TouchTargetSizeCheck"
+                        android:textSize="18sp">
+                </EditText>
+            <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type:"
+                            android:textColor="#00994D"
+                            android:fontFamily="@font/cabin_condensed_medium"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/food_types"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <RadioButton
+                                android:id="@+id/dairy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dairy"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:id="@+id/snacks"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Snacks"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:id="@+id/fruits_vegetables"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Fruits &amp; Vegetables"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:id="@+id/meat_seafood"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Meat &amp; Seafood"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:id="@+id/others"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Other"
+                                android:textSize="18sp"/>
+
+                        </RadioGroup>
+
+                    </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_cancel_shopping"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#EBF6FB"
+                    android:text="Cancel"
+                    android:textColor="#00994D"/>
+
+                <Button
+                    android:id="@+id/button_save_shopping"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="SAVE"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
